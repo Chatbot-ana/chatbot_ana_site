@@ -9,28 +9,28 @@
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <script src="script.js" defer></script>
     <title>Bem vindo a A.N.A</title>
-   <style>
-       df-messenger {
-    --df-messenger-bot-message: #458be6;
-    --df-messenger-button-titlebar-color: #5c8bf0;
-    --df-messenger-chat-background-color: #b0beff;
-    --df-messenger-font-color: rgb(253, 253, 253);
-    --df-messenger-send-icon: #2c83f5;
-    --df-messenger-user-message: #216dc4;
-    --df-messenger-border-message: black;
-    --df-messenger-input-box-color: rgb(240, 240, 240);
-    --df-messenger-input-font-color: rgb(0, 0, 0);
-}
-   </style>
+    <style>
+        df-messenger {
+     --df-messenger-bot-message: #458be6;
+     --df-messenger-button-titlebar-color: #5c8bf0;
+     --df-messenger-chat-background-color: #b0beff;
+     --df-messenger-font-color: rgb(253, 253, 253);
+     --df-messenger-send-icon: #2c83f5;
+     --df-messenger-user-message: #216dc4;
+     --df-messenger-border-message: black;
+     --df-messenger-input-box-color: rgb(240, 240, 240);
+     --df-messenger-input-font-color: rgb(0, 0, 0);
+ }
+    </style>
 </head>
 
 <body style="zoom:80%">
     <header>
         <div id="barra">
             <div id="logo">
-            <a href="#top">
-                <img src="logo.png" alt="" >
-            </a>
+                <a href="#top">
+                    <img src="logo.png" alt="">
+                </a>
             </div>
             <div id="traco">
 
@@ -43,6 +43,7 @@
                     <ul class="menu">
                         <li><a href="#top">Inicio</a></li>
                         <li><a href="#info">Sobre</a></li>
+                        <li><a href="#formu">Dê sua opnião</a></li>
                         <li><a href="#so">Quem Somos</a></li>
                     </ul>
                 </div>
@@ -137,6 +138,21 @@
                     </div>
                 </div>
             </div>
+            <div id="fo">
+                <div id="formu"></div>
+            </div>
+            <div id="corpo2">
+                <div id="esquerdo">
+                    <div id="iframe">
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSd3Mx4v8p9MQ1QVeM0WZS4q6gC6cWcrp0h2mw-92SMFyWYVaQ/viewform?usp=sf_link"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div id="form">
+
+            </div>
+            </div>
             <div id="so">
 
             </div>
@@ -204,16 +220,9 @@
                 </div>
             </div>
             <div id="add">
-             <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  expand="true"
-  chat-icon="Picsart_23-06-05_08-45-05-052.png"
-  intent="WELCOME"
-  chat-title="A.N.A"
-  agent-id="4a0e16b7-b35a-4791-89fd-43a5eb09ddbd"
-  language-code="pt-br"
-    style="zoom:120%";
-></df-messenger>
+                <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+                <df-messenger chat-icon="Picsart_23-06-05_08-45-05-052.png" intent="WELCOME" chat-title="A.N.A"
+                    agent-id="4a0e16b7-b35a-4791-89fd-43a5eb09ddbd" language-code="pt-br" style="zoom:120%";></df-messenger>
             </div>
         </div>
     </main>
@@ -227,8 +236,7 @@
             </div>
         </div>
     </footer>
-<!-- estensao VLlibras-->
-    <!--
+    <!-- estensao VLlibras-->
       <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -239,19 +247,6 @@
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-    -->
-
-<script async src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
-<script type="rocketlazyloadscript">
-	window.onload = function () {
-    window.ht = new HT({
-      token: "894ad581fb6306c7363cb9c32a5dd9dd",
-      avatar: "HUGO",
-      maxTextSize: 800
-	});
-	}
-    </script>
-    
 </body>
 
 
