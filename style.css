@@ -82,13 +82,15 @@ body {
     color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-@media (max-width: 800px){
-    #me{
+
+@media (max-width: 800px) {
+    #me {
         display: none;
     }
 }
-@media (max-width: 370px){
-    #menu{
+
+@media (max-width: 370px) {
+    #menu {
         display: none;
     }
 }
@@ -108,21 +110,24 @@ body {
 }
 
 /* main */
-#top{
+#top {
     height: 100px;
 }
+
 #corpo {
     display: inline;
     width: 100%;
     background-color: #dfdede;
 }
-#info{
+
+#info {
     width: 100%;
     height: 80px;
     background-color: #3863b3;
 
 }
-#so{
+
+#so {
     width: 100%;
     height: 80px;
     background-color: #264888;
@@ -175,9 +180,11 @@ body {
     color: #273754;
     font-weight: bold;
 }
-#ocult{
+
+#ocult {
     display: none;
 }
+
 #anaa {
     color: #315699;
     margin-left: 20px;
@@ -204,13 +211,16 @@ body {
     font-weight: bold;
 }
 
-iframe {
-    --df-messenger-bot-message: #878fac;
-    --df-messenger-button-titlebar-color: #df9b56;
-    --df-messenger-chat-background-color: #fafafa;
-    --df-messenger-font-color: white;
-    --df-messenger-send-icon: #878fac;
-    --df-messenger-user-message: #479b3d;
+df-messenger {
+    --df-messenger-bot-message: #458be6;
+    --df-messenger-button-titlebar-color: #5c8bf0;
+    --df-messenger-chat-background-color: #b0beff;
+    --df-messenger-font-color: rgb(253, 253, 253);
+    --df-messenger-send-icon: #2c83f5;
+    --df-messenger-user-message: #216dc4;
+    --df-messenger-border-message: black;
+    --df-messenger-input-box-color: rgb(240, 240, 240);
+    --df-messenger-input-font-color: rgb(0, 0, 0);
 }
 
 #add {
@@ -245,36 +255,42 @@ iframe {
         width: 100%;
     }
 }
-@media (max-width: 715px){
-    #texto{
+
+@media (max-width: 715px) {
+    #texto {
         margin-left: 0;
         margin-top: 0;
     }
-    .texto{
+
+    .texto {
         margin-left: 0;
     }
-    #foto{
+
+    #foto {
         display: none;
         width: 0;
         height: 0;
     }
 }
-@media (max-width: 620px){
-    #ocult{
+
+@media (max-width: 620px) {
+    #ocult {
         display: block;
         width: 100%;
     }
-    #ocult p{
+
+    #ocult p {
         display: block;
     }
-    .texto p{
+
+    .texto p {
         display: none;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 21px;
-    height: 100%;
-    width: 100%;
-    color: #273754;
-    font-weight: bold;
+        font-size: 21px;
+        height: 100%;
+        width: 100%;
+        color: #273754;
+        font-weight: bold;
     }
 }
 
@@ -429,29 +445,34 @@ iframe {
     margin-top: 150px;
     background-color: #264888;
 }
-@media (max-width: 1000px){
-    #boxf1{
+
+@media (max-width: 1000px) {
+    #boxf1 {
         margin-right: 0;
         margin-left: 0;
 
     }
-    #boxf2{
+
+    #boxf2 {
         margin-right: 0;
         margin-left: 0;
     }
-    #integra{
+
+    #integra {
         width: min-content;
     }
 }
-@media (max-width: 750px){
+
+@media (max-width: 750px) {
     #mod1 {
         display: inline;
     }
-    
+
     #mod2 {
         display: inline;
     }
-    .integra{
+
+    .integra {
         width: max-content;
         margin-left: 0;
     }
@@ -567,3 +588,57 @@ iframe {
     margin-left: 20px;
     color: white;
 }
+
+
+/* pg2 */
+#space{
+    height: 70px;
+}
+#body{
+    width: 100%;
+
+}
+#corpo2 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    top: 50px;
+}
+
+#esquerdo {
+    width: 100%;
+    background-color: #264888;
+}
+#iframe{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+#iframe iframe{
+    width: 800px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#form {
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem vertical */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da alça da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor da alça da barra de rolagem ao passar o mouse */
+  }
