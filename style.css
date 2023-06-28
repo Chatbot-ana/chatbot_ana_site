@@ -96,19 +96,6 @@ body {
 }
 
 
-#usuario {
-    width: 30px;
-    height: 30px;
-    margin-left: 55px;
-    margin-right: 50px;
-}
-
-#usuario img {
-    width: 70px;
-    height: 70px;
-
-}
-
 /* main */
 #top {
     height: 100px;
@@ -147,6 +134,24 @@ body {
     font-size: 25px;
     text-shadow: 2px 2px 2px rgb(76, 84, 196);
 }
+#uni{
+    display: flex;
+}
+@media (max-width: 500px){
+    #div{
+        display: inline;
+    }
+    #ola{
+        margin: 0;
+    }
+    #uni h1{
+        margin: 0;
+    }
+    #uni{
+        margin-left: 20px;
+    }
+}
+
 
 #texto {
     width: 100%;
@@ -175,7 +180,7 @@ body {
 .texto p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 21px;
-    height: 423px;
+    height: 323px;
     width: 600px;
     color: #273754;
     font-weight: bold;
@@ -246,13 +251,16 @@ df-messenger {
     height: 550px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     #borda {
         display: none;
     }
 
     .texto {
         width: 100%;
+    }
+    #foto{
+        display: none;
     }
 }
 
@@ -263,7 +271,10 @@ df-messenger {
     }
 
     .texto {
-        margin-left: 0;
+        margin-left: 0px;
+    }
+    .texto p{
+        margin-left: 20px;
     }
 
     #foto {
@@ -271,27 +282,38 @@ df-messenger {
         width: 0;
         height: 0;
     }
+    .botao {
+        height: 60px;
+        width: 420px;
+        border-radius: 40px;
+        border: 1px solid #6e737c;
+        background-color: #496aa7;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 20px;
+
+    }
+    #ola {
+        margin-left: 20px;
+    
+    }
 }
 
-@media (max-width: 620px) {
-    #ocult {
-        display: block;
+@media (max-width: 510px) {
+    
+    .texto p{
+        width: 90%;
+        height: auto;
+    }
+    #inicio{
+        height: fit-content;
+    }
+    #sla{
         width: 100%;
+        height: 20px;
     }
-
-    #ocult p {
-        display: block;
-    }
-
-    .texto p {
-        display: none;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 21px;
-        height: 100%;
-        width: 100%;
-        color: #273754;
-        font-weight: bold;
-    }
+    
 }
 
 /* contexto */
@@ -606,6 +628,10 @@ df-messenger {
 
 
 /* pg2 */
+#formus{
+    background-color:#264888;
+
+}
 #space {
     height: 70px;
 }
@@ -625,7 +651,7 @@ df-messenger {
 #esquerdo {
     width: 100%;
     background-color:#264888;
-};
+}
 
 #iframe {
     width: 1000px;
@@ -670,6 +696,37 @@ df-messenger {
     Color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 2px rgb(8, 11, 51);
+}
+@media (max-width: 1200px){
+    #corpo2 {
+        width: 100%;
+        height: 100%;
+        display: inline;
+        top: 50px;
+        background-color: #264888;
+    }
+    #iframe {
+        width: 100%;
+        height: 740px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+@media (max-width: 653px){
+    #iframe{
+        width: 100%;
+    }
+    #iframe1{
+        width: 100%;
+    }
+    #esquerdo{
+        width: 100%;
+    }
+    #iframe iframe{
+        width: 100%;
+    }
 }
 
 ::-webkit-scrollbar {
