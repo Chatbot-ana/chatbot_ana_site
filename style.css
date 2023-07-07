@@ -215,6 +215,25 @@ body {
     font-size: 22px;
     font-weight: bold;
 }
+#audio1{
+    width: 420px;
+    display: flex;
+    justify-content: center;
+}
+.audio{
+    color: #273754;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 22px;
+}
+#audio{
+    display: none;
+    z-index: 999999;
+    position: fixed;
+    top: 250px;
+    right: 20px;
+}
+
 
 df-messenger {
     --df-messenger-bot-message: #458be6;
